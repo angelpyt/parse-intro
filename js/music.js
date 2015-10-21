@@ -39,7 +39,7 @@ $('form').submit(function() {
 
 	// After setting each property, save your new instance back to your database
 	music.save(null, {
-		success: getData()
+		success: getData
 	});
 
 	return false
